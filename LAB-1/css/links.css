@@ -1,0 +1,78 @@
+body {
+    background-color: #A8ECE7;
+    margin: 0 0 0 0;
+    padding: 0px;
+    overflow: hidden
+}
+
+.container {
+    text-align: left;
+    padding: 10px;
+}
+
+.head {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #3498db;
+    background: #0099ff;
+    width: 250px;
+    height: px;
+    font-size: 50px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    color: #eb4040;
+}
+
+.btn {
+    border: 1px solid #3498db;
+    background: none;
+    width: 250px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    color: #3498db;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    color: #3498db;
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    color: rgb(192, 0, 0);
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btn1::before,
+.btn2::before,
+.btn3::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before,
+.btn2:hover::before,
+.btn3:hover::before {
+    height: 180%;
+}
