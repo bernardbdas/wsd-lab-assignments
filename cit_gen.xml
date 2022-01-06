@@ -1,28 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" 
-targetNamespace="http://www.example.org/sample" 
-xmlns:mca="http://www.example.org/sample" 
-elementFormDefault="qualified">
-<element name="University" type="mca:Christ"></element>
-<complexType name="Christ">
-<sequence>
-<element name="Student" type="mca:Student1" minOccurs="1" maxOccurs="unbounded"></element>
-</sequence>
-</complexType>
-<complexType name="Student1">
-<sequence>
-<element name="Name" type="string"></element>
-<element name="Age" type="integer"></element>
-<element name="Campus" type="string"></element>
-<element name="Department" type="string"></element>
-<element name="Course" type="string"></element>
-</sequence>
-<attribute name="stuid" type="ID" use="required"></attribute>
-</complexType>
-<simpleType name="Campus">
-<restriction base="String">
-<minInclusive value="0"></minInclusive>
-<maxInclusive value="100"></maxInclusive>
-</restriction>
-</simpleType>
-</schema>
+<citation-generator>
+
+    <ticket>
+
+        <user>
+            <name></name>
+            <designation></designation>
+            <email></email>
+            <contact></contact>
+        </user>
+
+        <citation type="generated">
+            <cid></cid>
+            <page-num></page-num>
+
+            <source type="research-paper">
+                <srcid></srcid>
+                <author></author>
+                <date-created></date-created>
+                <date-last-modified></date-last-modified>
+                <description></description>
+            </source>
+        </citation>
+
+        <citation type="checked">
+            <cid></cid>
+            <page-num></page-num>
+
+            <source type="newspaper">
+                <srcid></srcid>
+                <author></author>
+                <date-created></date-created>
+                <date-last-modified></date-last-modified>
+                <description></description>
+            </source>
+        </citation>
+
+        <citation type="checked">
+            <cid></cid>
+            <page-num></page-num>
+
+            <source type="journal">
+                <srcid></srcid>
+                <author></author>
+                <date-created></date-created>
+                <date-last-modified></date-last-modified>
+                <description></description>
+            </source>
+        </citation>
+        
+        <citation type="generated">
+            <cid></cid>
+            <page-num></page-num>
+
+            <source type="research-paper">
+                <srcid></srcid>
+                <author></author>
+                <date-created></date-created>
+                <date-last-modified></date-last-modified>
+                <description></description>
+            </source>
+        </citation>
+        
+        <citation type="generated">
+            <cid></cid>
+            <page-num></page-num>
+
+            <source type="research-paper">
+                <srcid></srcid>
+                <author></author>
+                <date-created></date-created>
+                <date-last-modified></date-last-modified>
+                <description></description>
+            </source>
+        </citation>
+    
+    </ticket>
+
+</citation-generator>
