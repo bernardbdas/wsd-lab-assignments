@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<citation-generator>
+<citation_generator>
 
     <ticket>
 
@@ -13,13 +13,13 @@
         <citation type="generated">
             <cid></cid>
             <date></date>
-            <page-num></page-num>
+            <page_num></page_num>
 
             <source type="research-paper">
                 <srcid></srcid>
                 <author></author>
-                <date-created></date-created>
-                <date-last-modified></date-last-modified>
+                <date_created></date_created>
+                <date_last_modified></date_last_modified>
                 <description></description>
             </source>
         </citation>
@@ -27,13 +27,13 @@
         <citation type="checked">
             <cid></cid>
             <date></date>
-            <page-num></page-num>
+            <page_num></page_num>
 
             <source type="newspaper">
                 <srcid></srcid>
                 <author></author>
-                <date-created></date-created>
-                <date-last-modified></date-last-modified>
+                <date_created></date_created>
+                <date_last_modified></date_last_modified>
                 <description></description>
             </source>
         </citation>
@@ -41,13 +41,13 @@
         <citation type="checked">
             <cid></cid>
             <date></date>
-            <page-num></page-num>
+            <page_num></page_num>
 
             <source type="journal">
                 <srcid></srcid>
                 <author></author>
-                <date-created></date-created>
-                <date-last-modified></date-last-modified>
+                <date_created></date_created>
+                <date_last_modified></date_last_modified>
                 <description></description>
             </source>
         </citation>
@@ -55,13 +55,13 @@
         <citation type="generated">
             <cid></cid>
             <date></date>
-            <page-num></page-num>
+            <page_num></page_num>
 
             <source type="research-paper">
                 <srcid></srcid>
                 <author></author>
-                <date-created></date-created>
-                <date-last-modified></date-last-modified>
+                <date_created></date_created>
+                <date_last_modified></date_last_modified>
                 <description></description>
             </source>
         </citation>
@@ -69,17 +69,17 @@
         <citation type="generated">
             <cid></cid>
             <date></date>
-            <page-num></page-num>
+            <page_num></page_num>
 
             <source type="research-paper">
                 <srcid></srcid>
                 <author></author>
-                <date-created></date-created>
-                <date-last-modified></date-last-modified>
+                <date_created></date_created>
+                <date_last_modified></date_last_modified>
                 <description></description>
             </source>
         </citation>
 
     </ticket>
 
-</citation-generator>
+</citation_generator>
