@@ -37,8 +37,8 @@ uname.onkeydown = function() {
 
 //validate email
 email.onkeydown = function() {
-    const validMail1 = /[a-z0-9\.-]@amazon.in/;
-    const validMail2 = /[a-z0-9\.-]@amazon.com/;
+    const validMail1 = /[a-z0-9\.-]@cdpl.in/;
+    const validMail2 = /[a-z0-9\.-]@cdpl.com/;
     if (validMail1.test(emailVal) || validMail2.test(emailVal)) {
         span[0].innerText = "Valid Email Address";
         span[0].style.color = "lime";
@@ -86,6 +86,6 @@ cpass.onkeydown = function() {
         span[0].style.color = "red"
     } else {
         span[0].innerText = "Passwords do not match";
-        span[0].style.color = "lime";
+        span[0].style.color = "red";
     }
 }
