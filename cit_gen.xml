@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cit_gen.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="cit_gen.xsl" type="text/xsl"?>
+
 <citation_generator>
-
     <ticket>
-
         <user>
             <name></name>
             <designation></designation>
             <email></email>
             <contact></contact>
         </user>
-
         <citation type="generated">
             <cid></cid>
             <date></date>
@@ -23,12 +23,10 @@
                 <description></description>
             </source>
         </citation>
-
         <citation type="checked">
             <cid></cid>
             <date></date>
             <page_num></page_num>
-
             <source type="newspaper">
                 <srcid></srcid>
                 <author></author>
@@ -37,12 +35,10 @@
                 <description></description>
             </source>
         </citation>
-
         <citation type="checked">
             <cid></cid>
             <date></date>
             <page_num></page_num>
-
             <source type="journal">
                 <srcid></srcid>
                 <author></author>
@@ -51,12 +47,10 @@
                 <description></description>
             </source>
         </citation>
-
         <citation type="generated">
             <cid></cid>
             <date></date>
             <page_num></page_num>
-
             <source type="research-paper">
                 <srcid></srcid>
                 <author></author>
@@ -65,12 +59,10 @@
                 <description></description>
             </source>
         </citation>
-
         <citation type="generated">
             <cid></cid>
             <date></date>
             <page_num></page_num>
-
             <source type="research-paper">
                 <srcid></srcid>
                 <author></author>
@@ -79,7 +71,5 @@
                 <description></description>
             </source>
         </citation>
-
     </ticket>
-
 </citation_generator>
