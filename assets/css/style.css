@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --head-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --btn-font: 'Julius Sans One', sans-serif;
+    --txt-font: 'Montserrat', sans-serif;
+    --grad1: linear-gradient(to left, rgba(124, 201, 23, 0.6), rgba(15, 193, 216, 0.6));
+    --grad2: linear-gradient(to left, rgba(250, 118, 42, 0.7), rgba(87, 108, 202, 0.6));
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 35px;
+    --webkit-border-radius: 10px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+    overflow: hidden;
+    width: calc(100vw-60vw);
+    max-width: 100%;
+}
+
+.header {
+    background: var(--grad1);
+    padding: 30px 10px;
+}
+
+.header h1 {
+    color: #222;
+    font-family: var(--head-font);
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    background-image: var(--grad2);
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.form {
+    background: rgb(234, 238, 111);
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--btn-font);
+}
+
+.formdesign {
+    font-family: var(--txt-font);
+    font-size: 20px;
+    padding: 40px 40px 10px 40px;
+}
+
+.formdesign input {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    border: 1px solid blue;
+    margin: 14px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.formdesign input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+
+/* .formdesign.success input {
+    border-color: rgb(15, 209, 15);
+}
+
+.formdesign.error input {
+    border-color: rgb(250, 37, 0);
+}
+
+.formdesign i {
+    position: absolute;
+    right: 12px;
+    top: 38px;
+}
+
+.formdesign.success i.fa-solid .fa-circle-check {
+    border-color: rgb(15, 209, 15);
+    ;
+}
+
+.formdesign.error i.fa-solid .fa-diamond-exclamation {
+    border-color: rgb(250, 37, 0);
+}
+
+.formdesign small {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+*/
+
+.sub-btn {
+    font-family: var(--btn-font);
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin: 22px 20px;
+}
