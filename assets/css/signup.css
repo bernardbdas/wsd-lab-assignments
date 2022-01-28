@@ -115,3 +115,10 @@ body {
     font-size: 25px;
     margin: 22px 20px;
 }
+
+@media(max-width:998px) {
+    .container {
+        width: calc(100vw-35vw);
+        max-width: 100%;
+    }
+}
