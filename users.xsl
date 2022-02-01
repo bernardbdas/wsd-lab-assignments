@@ -31,7 +31,7 @@
                                     </td>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <td>
+                                    <td bgcolor="#0fc1d899">
                                         <xsl:value-of select="age"/>
                                     </td>
                                 </xsl:otherwise>
@@ -39,9 +39,11 @@
                             <td>
                                 <xsl:value-of select="nationality"/>
                             </td>
-                            <td>
-                                <xsl:value-of select="designation"/>
-                            </td>
+                            <xsl:template match="designation">
+                                <td style="color:#00ff00">
+                                    <xsl:value-of select="designation"/>
+                                </td>
+                            </xsl:template>
                             <td>
                                 <xsl:value-of select="email"/>
                             </td>
