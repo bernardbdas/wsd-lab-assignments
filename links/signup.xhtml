@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="..//assets/css/signup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>CDPL:User Registration Form</title>
+</head>
+
+<body>
+    <div class="color-overlay"></div>
+    <div class=" container">
+        <div class="header">
+            <h1>CDPL Citation Generator
+                <br />User Registration Form
+            </h1>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-set">
+                <label for="name" class="name">Name : </label>
+                <br />
+                <input type="text" id="name" placeholder="enter your name*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="email" class="email">Email : </label>
+                <br />
+                <input type="email" id="email" placeholder="enter your email*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="phone" class="phone">Phone number : </label>
+                <br />
+                <input type="text" id="phone" placeholder="enter your phone number*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="password" class="password">Enter Password : </label>
+                <br />
+                <input type="password" id="password" placeholder="enter your password*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="cnf-password" class="cnf-password">Confirm Password : </label>
+                <br />
+                <input type="password" id="cnf-password" placeholder="re-enter your password*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="address" class="address">Address : </label>
+                <br />
+                <textarea id="address" placeholder="enter your address*" required="required"></textarea>
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label class="q2" style="text-transform: none;">Q. How did you get to know about us ? </label>
+                <br />
+                <ul id="q2">
+                    <input type="radio" name="q2" id="rad-btn" value="Friends" />Friends<br />
+                    <input type="radio" name="q2" id="rad-btn" value="Television" />Television<br />
+                    <input type="radio" name="q2" id="rad-btn" value="Internet" />Internet<br />
+                    <input type="radio" name="q2" id="rad-btn" value="Other" />Other<br />
+                    <textarea id="txt-oth" placeholder="write your answer*"></textarea>
+                </ul>
+                <span></span>
+                <br />
+            </div>
+            <br />
+            <button class="sub-btn" type="submit" onclick="onSubmit()">Submit Form</button>
+        </form>
+    </div>
+    <script type="javascript" src="..//assets/js/validator.js"></script>
+</body>
+
+</html>

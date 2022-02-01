@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="users.xsd" type="application/xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="users.xsl" type="xsl"?>
+<citation_generator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="users.xsd">
+    
+    <user>
+        <cid>C01</cid>
+        <name>Person A</name>
+        <age>23</age>
+        <nationality>Portugal</nationality>
+        <designation>Law Enthusiast</designation>
+        <email>person_a@cdpl.com</email>
+        <contact>9832743245</contact>
+    </user>
+    <user>
+        <cid>C02</cid>
+        <name>Person B</name>
+        <age>34</age>
+        <nationality>United States</nationality>
+        <designation>Research Scholar</designation>
+        <email>person_b@cdpl.com</email>
+        <contact>3289903449</contact>
+    </user>
+    <user>
+        <cid>C03</cid>
+        <name>Person C</name>
+        <age>17</age>
+        <nationality>Ghana</nationality>
+        <designation>Law Enthusiast</designation>
+        <email>person_c@cdpl.com</email>
+        <contact>0923762856</contact>
+    </user>
+    <user>
+        <cid>C04</cid>
+        <name>Person D</name>
+        <age>45</age>
+        <nationality>Singapore</nationality>
+        <designation>Law Enthusiast</designation>
+        <email>person_d@cdpl.com</email>
+        <contact>7835345344</contact>
+    </user>
+    <user>
+        <cid>C05</cid>
+        <name>Person E</name>
+        <age>53</age>
+        <nationality>Japan</nationality>
+        <designation>Lawyer</designation>
+        <email>person_e@cdpl.com</email>
+        <contact>4764937484</contact>
+    </user>
+    <user>
+        <cid>C06</cid>
+        <name>Person F</name>
+        <age>65</age>
+        <nationality>Finland</nationality>
+        <designation>Barrister</designation>
+        <email>person_f@cdpl.com</email>
+        <contact>3480273846</contact>
+    </user>
+    <user>
+        <cid>C07</cid>
+        <name>Person G</name>
+        <age>34</age>
+        <nationality>France</nationality>
+        <designation>Law Enthusiast</designation>
+        <email>person_g@cdpl.com</email>
+        <contact>3749309489</contact>
+    </user>
+    <user>
+        <cid>C08</cid>
+        <name>Person H</name>
+        <age>32</age>
+        <nationality>Australia</nationality>
+        <designation>Research Scholar</designation>
+        <email>person_h@cdpl.com</email>
+        <contact>4674985349</contact>
+    </user>
+    <user>
+        <cid>C09</cid>
+        <name>Person I</name>
+        <age>39</age>
+        <nationality>Denmark</nationality>
+        <designation>Research Scholar</designation>
+        <email>person_i@cdpl.com</email>
+        <contact>4578203847</contact>
+    </user>
+    <user>
+        <cid>C10</cid>
+        <name>Person J</name>
+        <age>44</age>
+        <nationality>India</nationality>
+        <designation>Lawyer</designation>
+        <email>person_j@cdpl.com</email>
+        <contact>3647839039</contact>
+    </user>
+</citation_generator>
