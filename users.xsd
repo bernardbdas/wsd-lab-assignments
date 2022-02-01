@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="citation_generator">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="user" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="cid"/>
+                            <xs:element type="xs:string" name="name"/>
+                            <xs:element type="xs:integer" name="age"/>
+                            <xs:element type="xs:string" name="nationality"/>
+                            <xs:element type="xs:string" name="designation"/>
+                            <xs:element type="xs:string" name="email"/>
+                            <xs:element type="xs:long" name="contact"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="name">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="3"/>
+                <xs:maxLength value="25"/>
+                <xs:whiteSpace value="preserve"/>
+                <xs:pattern value="([A-Za-z]){25}"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="age">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:maxExclusive value="110"/>
+                <xs:minInclusive value="0"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="nationality">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="3"/>
+                <xs:maxLength value="20"/>
+                <xs:pattern value="([A-Za-z]){20}"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="designation">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="5"/>
+                <xs:maxLength value="20"/>
+                <xs:whiteSpace value="preserve"/>
+                <xs:pattern value="([A-Za-z]){20}"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="email">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="12"/>
+                <xs:maxLength value="40"/>
+                <xs:pattern value="([a-z@]*)"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:simpleType name="contact">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([0-9]){10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
