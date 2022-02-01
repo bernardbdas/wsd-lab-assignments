@@ -81,7 +81,7 @@ function checkCred() {
     for (i = 0; i < adminCreds.length; i++) {
         if (uname.value == adminCreds[i].username && pass.value == adminCreds[i].password) {
             alert(username + "is logged in !!!");
-            window.location = "/users.xhtml";
+            window.location.href = "https://bernardbdas.github.io/wsd-lab4/";
             return;
         }
     }
