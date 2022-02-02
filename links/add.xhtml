@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Train Schedule</title>
+    <script type="javascript" src="../assets/js/domparser.js"></script>
+
+</head>
+
+<body onload="loadXMLDoc();">
+    <h1>Train Schedule</h1>
+    <div style="margin-bottom: 30px;">
+        <input type="number" id="indexToDel" placeholder="Record to delete">
+        <button onclick="deleteRecord();">Delete</button>
+    </div>
+    <div style="margin-bottom: 30px;">
+        <form id="newRecForm">
+            <input type="text" id="tName" placeholder="Train Name">
+            <input type="text" id="tCode" placeholder="Train Code">
+            <input type="text" id="sName" placeholder="Start Station Name">
+            <input type="text" id="sCode" placeholder="Start Station Code">
+            <input type="text" id="eName" placeholder="End Station Name">
+            <input type="text" id="eCode" placeholder="End Station Code">
+            <input type="text" id="opName" placeholder="Engine operator">
+            <button onclick="addNewRecord()">Add</button>
+        </form>
+    </div>
+
+    <table id="table"></table>
+
+</body>
+
+</html>

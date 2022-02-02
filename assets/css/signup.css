@@ -33,7 +33,7 @@ body .color-overlay {
 }
 
 body {
-    background: var(--bg-img);
+    background-color: var(--grad1);
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #e9967a;

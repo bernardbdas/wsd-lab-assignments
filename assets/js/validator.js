@@ -213,3 +213,33 @@ q2.onclick = function() {
         }
     }
 }
+
+//to set cookie
+function setcookie() {
+    var bg = addrs.value;
+    var overlay = document.getElementById('color-overlay');
+    if (bg != "") {
+        document.cookie = "color=" + bg + ";expires=Fri, 4 Feb 2022 11:59:59 UTC";
+        overlay.style.background = bg;
+    }
+
+    window.onload = function() {
+        if (document.cookie.length != 0) {
+            var previouscookies = document.cookie.split("=");
+            addrs.value = previouscookies[1];
+            overlay.style.background = previouscookies[1];
+        }
+    }
+}
+
+//to get cookie
+function getcookie() {
+    if (document.cookie.length != 0) {
+        alert(document.cookie);
+    } else {
+        alert("No cookies from past sessions.");
+    }
+}
+
+//to clear cookie
+function clearcookie() {}
