@@ -1,0 +1,93 @@
+{
+    "user": [{
+            "cid": "C01",
+            "name": "Person A",
+            "age": "23",
+            "nationality": "Portugal",
+            "designation": "Law Enthusiast",
+            "email": "person_a@cdpl.com",
+            "contact": "9832743245"
+        },
+        {
+            "cid": "C02",
+            "name": "Person B",
+            "age": "34",
+            "nationality": "United States",
+            "designation": "Research Scholar",
+            "email": "person_b@cdpl.com",
+            "contact": "3289903449"
+        },
+        {
+            "cid": "C03",
+            "name": "Person C",
+            "age": "17",
+            "nationality": "Ghana",
+            "designation": "Law Enthusiast",
+            "email": "person_c@cdpl.com",
+            "contact": "0923762856"
+        },
+        {
+            "cid": "C04",
+            "name": "Person D",
+            "age": "45",
+            "nationality": "Singapore",
+            "designation": "Law Enthusiast",
+            "email": "person_d@cdpl.com",
+            "contact": "7835345344"
+        },
+        {
+            "cid": "C05",
+            "name": "Person E",
+            "age": "53",
+            "nationality": "Japan",
+            "designation": "Lawyer",
+            "email": "person_e@cdpl.com",
+            "contact": "4764937484"
+        },
+        {
+            "cid": "C06",
+            "name": "Person F",
+            "age": "65",
+            "nationality": "Finland",
+            "designation": "Barrister",
+            "email": "person_f@cdpl.com",
+            "contact": "3480273846"
+        },
+        {
+            "cid": "C07",
+            "name": "Person G",
+            "age": "34",
+            "nationality": "France",
+            "designation": "Law Enthusiast",
+            "email": "person_g@cdpl.com",
+            "contact": "3749309489"
+        },
+        {
+            "cid": "C08",
+            "name": "Person H",
+            "age": "32",
+            "nationality": "Australia",
+            "designation": "Research Scholar",
+            "email": "person_h@cdpl.com",
+            "contact": "4674985349"
+        },
+        {
+            "cid": "C09",
+            "name": "Person I",
+            "age": "39",
+            "nationality": "Denmark",
+            "designation": "Research Scholar",
+            "email": "person_i@cdpl.com",
+            "contact": "4578203847"
+        },
+        {
+            "cid": "C10",
+            "name": "Person J",
+            "age": "44",
+            "nationality": "India",
+            "designation": "Lawyer",
+            "email": "person_j@cdpl.com",
+            "contact": "3647839039"
+        }
+    ]
+}
