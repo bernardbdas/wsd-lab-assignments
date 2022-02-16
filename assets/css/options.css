@@ -12,7 +12,7 @@
     --head-font: 'Headland One', serif;
     --btn-font: 'Julius Sans One', sans-serif;
     --txt-font: 'Montserrat', sans-serif;
-    --bg-img: url('..//img/form-bg-img1.jpg');
+    --bg-img: url('');
     --grad1: linear-gradient(to left, rgba(124, 201, 23, 0.6), rgba(15, 193, 216, 0.6));
     --grad2: linear-gradient(to left, rgba(250, 118, 42, 0.7), rgba(87, 108, 202, 0.6));
     --grad2: linear-gradient(to left, #ff1e1eb3, rgba(87, 108, 202, 0.6));
@@ -73,7 +73,7 @@ body {
     margin: auto;
     margin-top: 3%;
     margin-bottom: 1%;
-    width: 50%;
+    width: 70%;
     padding: 50px;
     z-index: 1;
 }
@@ -110,8 +110,9 @@ body {
     position: relative;
     margin: auto;
     margin-top: 1%;
-    margin-bottom: 10%;
-    width: 50%;
+    margin-bottom: 1%;
+    width: 70%;
+    height: 100%;
     padding: 50px;
     font-size: 25px;
     z-index: 1;
