@@ -1,10 +1,9 @@
 let btn = document.getElementsByClassName('as-btn');
-let desc = document.getElementsByClassName('desc-box');
+let msg = document.getElementsByTagName('span');
 
-let msg = ["Hello", "Welcome"]
+let vars = ["Hello", "Welcome"];
+msg[0].innerText = 'Hello';
 
-for (i = 0; i < btn.length; i++) {
-    onmouseover.btn[i] = function(evt) {
-        desc[0].inner = msg[i];
-    };
+function clk() {
+    alert("Hellowww!\n" + location.hostname);
 }
